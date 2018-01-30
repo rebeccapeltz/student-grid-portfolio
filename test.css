@@ -1,0 +1,38 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .portfolio > div {
+    border: 1px solid blue;
+  }
+  
+  .inner-wrapper {
+    display:grid;
+    grid-template-columns:50% 50%;
+  }
+  .inner-wrapper > div {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    display: grid;
+  }
+  * {box-sizing: border-box;}
+  
+  .wrapper {
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+  }
+  
+  .wrapper > div, .wrapper > footer {
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+  /*   padding: 1em; */
+    color: #d9480f;
+  }
+  
+  
+  
